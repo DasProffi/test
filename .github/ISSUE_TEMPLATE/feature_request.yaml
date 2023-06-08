@@ -10,15 +10,15 @@ body:
       label: Describe the problem
       value: |
         E.g. I can't easily navigate to the home page
-      validations:
-        required: true
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: Describe your solution
       value: |
         E.g. Add a home button
-      validations:
-        required: true
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: "[OPTIONAL] Describe alternatives"

@@ -1,6 +1,6 @@
 name: Feature request
 description: When you want to propose a new feature
-title: "[Feature]: "
+title: "[Feature]: TheNameOfYourFeature"
 labels: []
 assignees: []
 
@@ -8,24 +8,24 @@ body:
   - type: textarea
     attributes:
       label: Describe the problem
-      value: |
-        E.g. I can't easily navigate to the home page
+      description: "E.g. I can't easily navigate to the home page"
+      value: ""
     validations:
       required: true
   - type: textarea
     attributes:
       label: Describe your solution
-      value: |
-        E.g. Add a home button
+      description: "E.g. Add a home button"
+      value: ""
     validations:
       required: true
   - type: textarea
     attributes:
       label: "[OPTIONAL] Describe alternatives"
-      value: |
-        E.g. Improve the other all navigation system
+      description: "E.g. Improve the other all navigation system"
+      value: ""
   - type: textarea
     attributes:
       label: "[OPTIONAL] Additional context"
-      value: |
-        E.g. Pictures, screenshots, and other context information to help us understand the feature you would like
+      description: "E.g. Pictures, screenshots, and other context information to help us understand the feature you would like"
+      value: ""

@@ -1,30 +1,26 @@
----
 name: Feature request
 about: Suggest an idea for this project
-title: "[Feature]"
-labels: ''
-assignees: ''
-
----
-
+title: "[Feature]: "
+labels: []
+assignees: []
 body:
-- type: markdown
-  attributes:
-    value: |
-      **Describe the problem**
-      E.g. I can't easily navigate to the home page
-- type: markdown
-  attributes:
-    value: |
-      **Describe your solution**
-      E.g. Add a home button
-- type: markdown
-  attributes:
-    value: |
-      **[OPTIONAL] Describe alternatives**
-      E.g. Improve the other all navigation system
-- type: markdown
-  attributes:
-    value: |
-      **[OPTIONAL] Additional context**
-      E.g. Pictures, screenshots, and other context information to help us understand the feature you would like
+  - type: markdown
+    attributes:
+      label: **Describe the problem**
+      value: |
+        E.g. I can't easily navigate to the home page
+  - type: markdown
+    attributes:
+      value: |
+        **Describe your solution**
+        E.g. Add a home button
+  - type: markdown
+    attributes:
+      value: |
+        **[OPTIONAL] Describe alternatives**
+        E.g. Improve the other all navigation system
+  - type: markdown
+    attributes:
+      value: |
+        **[OPTIONAL] Additional context**
+        E.g. Pictures, screenshots, and other context information to help us understand the feature you would like

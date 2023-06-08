@@ -26,6 +26,6 @@ body:
         E.g. Improve the other all navigation system
   - type: textarea
     attributes:
-    label: "[OPTIONAL] Additional context"
+      label: "[OPTIONAL] Additional context"
       value: |
         E.g. Pictures, screenshots, and other context information to help us understand the feature you would like

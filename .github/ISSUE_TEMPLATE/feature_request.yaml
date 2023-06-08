@@ -7,7 +7,7 @@ assignees: ''
 body:
   - type: markdown
     attributes:
-      label: **Describe the problem**
+      label: Describe the problem
       value: |
         E.g. I can't easily navigate to the home page
   - type: markdown

@@ -5,11 +5,12 @@ labels: []
 assignees: []
 
 body:
-  - type: markdown
+  - type: textarea
     attributes:
       label: Describe the problem
       value: |
         E.g. I can't easily navigate to the home page
+      render: markdown
   - type: markdown
     attributes:
       value: |

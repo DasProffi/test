@@ -7,21 +7,21 @@ assignees: []
 body:
   - type: textarea
     attributes:
-      label: Describe the problem
+      label: "[REQUIRED] Describe the problem"
       description: "E.g. I can't easily navigate to the home page"
     validations:
       required: true
   - type: textarea
     attributes:
-      label: Describe your solution
+      label: "[REQUIRED] Describe your solution"
       description: "E.g. Add a home button"
     validations:
       required: true
   - type: textarea
     attributes:
-      label: "[OPTIONAL] Describe alternatives"
+      label: "Describe alternatives"
       description: "E.g. Improve the other all navigation system"
   - type: textarea
     attributes:
-      label: "[OPTIONAL] Additional context"
+      label: "Additional context"
       description: "E.g. Pictures, screenshots, and other context information to help us understand the feature you would like"

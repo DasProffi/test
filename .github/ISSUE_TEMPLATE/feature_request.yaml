@@ -10,18 +10,22 @@ body:
       label: Describe the problem
       value: |
         E.g. I can't easily navigate to the home page
+      validations:
+        required: true
   - type: textarea
     attributes:
+      label: Describe your solution
       value: |
-        **Describe your solution**
         E.g. Add a home button
+      validations:
+        required: true
   - type: textarea
     attributes:
+      label: "[OPTIONAL] Describe alternatives"
       value: |
-        **[OPTIONAL] Describe alternatives**
         E.g. Improve the other all navigation system
   - type: textarea
     attributes:
+    label: "[OPTIONAL] Additional context"
       value: |
-        **[OPTIONAL] Additional context**
         E.g. Pictures, screenshots, and other context information to help us understand the feature you would like
